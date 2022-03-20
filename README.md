@@ -17,3 +17,8 @@ $ npx eslint --init
 $ npm i -D eslint-config-airbnb eslint-config-airbnb-typescript
 ```
 4. ruleの設定
+5. prettierの設定の追加、prettierrc.jsonの追加
+```
+$ npm i -D eslint-config-prettier
+$ touch .prettierrc.json
+```
