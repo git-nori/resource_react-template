@@ -12,3 +12,7 @@ $ npx create-react-app resource_react-template --template redux-typescript
 ```
 $ npx eslint --init
 ```
+3. airbnbのlint設定の追加
+```
+$ npm i -D eslint-config-airbnb eslint-config-airbnb-typescript
+```
