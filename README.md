@@ -16,3 +16,4 @@ $ npx eslint --init
 ```
 $ npm i -D eslint-config-airbnb eslint-config-airbnb-typescript
 ```
+4. ruleの設定

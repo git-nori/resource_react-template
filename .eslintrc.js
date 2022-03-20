@@ -27,5 +27,23 @@ module.exports = {
         "@typescript-eslint"
     ],
     "rules": {
+        "no-use-before-define": "off",
+        "@typescript-eslint/no-use-before-define": ["error"],
+        "@typescript-eslint/no-misused-promises": [
+            "error",
+            {
+                "checksVoidReturn": {
+                    "arguments": false,
+                    "attributes": false
+                }
+            }
+        ], // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/no-misused-promises.md#checksvoidreturn
+        "no-param-reassign": ["error", { props: true, ignorePropertyModificationsFor: ["state"] }], // https://redux-toolkit.js.org/usage/immer-reducers#linting-state-mutations
+        "spaced-comment": ["error", "always", { "markers": ["/ <reference"] }],
+        "import/prefer-default-export": "off",
+        "react/jsx-props-no-spreading": ["off"],
+        "react/function-component-definition": ["off"],
+        "react/button-has-type": ["off"],
+        "no-promise-executor-return": ["off"],
     }
 }
