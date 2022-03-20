@@ -22,7 +22,7 @@ module.exports = {
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
-    "ignorePatterns": [".eslintrc.*"],
+    "ignorePatterns": [".eslintrc.*", "src/serviceWorker.ts"],
     "plugins": [
         "react",
         "@typescript-eslint"
