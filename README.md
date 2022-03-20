@@ -22,3 +22,6 @@ $ npm i -D eslint-config-airbnb eslint-config-airbnb-typescript
 $ npm i -D eslint-config-prettier
 $ touch .prettierrc.json
 ```
+
+tsconfigのalias設定もしとくと良さそう
+https://qiita.com/nju33/items/cf924f7b6bb513bef8a2
