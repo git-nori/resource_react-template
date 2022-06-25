@@ -25,3 +25,23 @@ $ touch .prettierrc.json
 
 tsconfigのalias設定もしとくと良さそう
 https://qiita.com/nju33/items/cf924f7b6bb513bef8a2
+
+6. lint
+```
+npm install eslint-plugin-react-hooks —save-dev
+```
+プラグインをESLint構成に追加します。
+
+```
+{ 
+  "plugins"：[ 
+    // ... 
+    "react-hooks" 
+  ]、
+  "rules"：{ 
+    // ... 
+    "react-hooks / rules-of-hooks"： "error"、
+    "react-hooks / exhaustive -deps "：" warn "//エフェクトの依存関係のチェック
+  } 
+}
+```
