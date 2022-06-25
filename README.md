@@ -27,11 +27,18 @@ tsconfigのalias設定もしとくと良さそう
 https://qiita.com/nju33/items/cf924f7b6bb513bef8a2
 
 6. lint
+hooks
 ```
 npm install eslint-plugin-react-hooks —save-dev
 ```
-プラグインをESLint構成に追加します。
-
+```
+{
+  "extends": [
+    // ...
+    "plugin:react-hooks/recommended"
+  ]
+}
+```
 ```
 { 
   "plugins"：[ 
@@ -41,7 +48,8 @@ npm install eslint-plugin-react-hooks —save-dev
   "rules"：{ 
     // ... 
     "react-hooks / rules-of-hooks"： "error"、
-    "react-hooks / exhaustive -deps "：" warn "//エフェクトの依存関係のチェック
+    "react-hooks / exhaustive -deps "：" warn "//エフェクトの依存関係のチェック,
+    "react/react-in-jsx-scope": "off", // Reactのimportがない場合にエラーを表示しない
   } 
 }
 ```
