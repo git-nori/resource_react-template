@@ -28,6 +28,7 @@ https://qiita.com/nju33/items/cf924f7b6bb513bef8a2
 
 6. lint
 hooks
+https://www.npmjs.com/package/eslint-plugin-react-hooks
 ```
 npm install eslint-plugin-react-hooks —save-dev
 ```
