@@ -24,8 +24,11 @@ $ touch .prettierrc.json
 ```
 
 tsconfigのalias設定もしとくと良さそう
-https://qiita.com/nju33/items/cf924f7b6bb513bef8a2
-https://qiita.com/Statham/items/8a1161c7816e360590f3
+https://qiita.com/nju33/items/cf924f7b6bb513bef8a2  
+https://qiita.com/Statham/items/8a1161c7816e360590f3  
+alias  
+https://dev.to/forinda/how-to-use-module-alias-in-react-js-cra-1o06  
+https://zukucode.com/2021/06/react-create-app-import-alias.html  
 
 6. lint
 hooks
