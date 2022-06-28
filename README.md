@@ -25,6 +25,7 @@ $ touch .prettierrc.json
 
 tsconfigのalias設定もしとくと良さそう
 https://qiita.com/nju33/items/cf924f7b6bb513bef8a2
+https://qiita.com/Statham/items/8a1161c7816e360590f3
 
 6. lint
 hooks
